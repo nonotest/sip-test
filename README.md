@@ -21,7 +21,7 @@ Using flatlist query Mars Rover Photo api ( https://api.nasa.gov/mars-photos/api
 Display a infinite list with pagination(load the next items when reaching the bottom of the list) of photos.
 Each list item must show:
  * name of photo
- * thumbmail 
+ * thumbnail (in an <Image />, cached if possible)
  * camera details
  * date of photo
  
